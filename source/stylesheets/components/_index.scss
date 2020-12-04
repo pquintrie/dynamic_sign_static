@@ -2,3 +2,31 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+@import "contact";
+@import "footer";
+@import "information";
+@import "banner_carousel";
+@import "products";
+
+
+@media (min-width: 1600px) {
+  .banner-wrapper,
+  .information-wrapper, .fourth-page-wrapper,
+  .fifth-page-wrapper, .sixth-page-wrapper {
+    min-height: 80vh;
+  }
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid;
+  border-color: #527aa3;
+}
+
+
+.section-title {
+  color: #527aa3;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+}
+
