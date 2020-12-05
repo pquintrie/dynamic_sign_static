@@ -77,3 +77,21 @@
 .footer-address {
   font-weight: bold;
 }
+
+@media (max-width: 767px) {
+  .footer-links-title {
+    display: none;
+  }
+  .logo-footer {
+    display: none;
+  }
+  .footer-links {
+    width: 115px;
+  }
+  .footer-address {
+    font-size: 15px;
+  }
+  .footer-content {
+    margin: 0 12px 0px 15px;
+  }
+}
